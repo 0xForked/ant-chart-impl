@@ -9,7 +9,7 @@ const DemoRadar = () => {
   }, []);
 
   const asyncFetch = () => {
-    fetch('http://localhost:3000/api/v2/job-roles/71c0635b-7e4e-4aff-85ef-86d3c8371d23/soft-skills/charts')
+    fetch('http://localhost:3000/api/v2/job-boards/f8e27753-122f-47b7-be0d-c3d46f25a403/soft-skills/charts')
       .then((response) => response.json())
       .then((json) => setData(json.data))
       .catch((error) => {

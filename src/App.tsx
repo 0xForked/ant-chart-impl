@@ -1,4 +1,5 @@
 import './App.css';
+// import DemoRadar from './Radar';
 import DemoRadialBar from './Radial';
 
 function App() {
